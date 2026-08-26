@@ -28,6 +28,7 @@ Suggests:
     Biostrings,
     devtools,
     ggh4x,
+    IntegratedLearner,
     knitr,
     maaslin3,
     mia,
@@ -39,6 +40,7 @@ Suggests:
     scater,
     sessioninfo
 Remotes:
+    github::himelmallick/IntegratedLearner,
     github::microbiome/mia,
     github::microbiome/miaViz,
     github::microbiome/multiomics
