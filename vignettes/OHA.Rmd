@@ -119,6 +119,8 @@ The term “hologenome” reflects the idea that a host should not be considered
 
 Hologenomics is closely related to multi-omics, but with a particular emphasis on incorporating microbiome-derived information together with host and other molecular data layers. Thus, hologenomics uses multi-omics approaches to study how the host and its microbial community jointly contribute to biological processes and phenotypes.
 
+See the [slides](https://microbiome.github.io/outreach/20260903_ECCB2026.html) for more information.
+
 ### (9:30-10:30) Bioconductor's data science framework
 
 Bioconductor is a worldwide open-source project that develops software and data resources for bioinformatics and computational biology. It now includes more than 2,300 R packages covering a wide range of biological data types and analytical methods.
@@ -126,6 +128,8 @@ Bioconductor is a worldwide open-source project that develops software and data 
 A key feature of the Bioconductor ecosystem is its use of standardized data containers: structured representations that organize complex biological data together with the associated sample and feature metadata. These containers make it easier to store, manipulate, share, and analyze biological datasets consistently across different Bioconductor packages.
 
 The main data container is `r BiocStyle::Biocpkg("SummarizedExperiment")` which is extended to different fields.
+
+See the [slides](https://microbiome.github.io/outreach/20260903_ECCB2026.html) for more information.
 
 #### Import data
 
@@ -207,6 +211,8 @@ Another advantage is that standardized data containers make it easy to apply a w
 In this session, we will focus on taxonomic data analysis. This provides the foundation for microbiome analysis before incorporating additional omics layers or other sources of information.
 
 We will cover the common steps and analytical approaches used in microbiome data analysis.
+
+See the [slides](https://microbiome.github.io/outreach/20260903_ECCB2026.html) for more information.
 
 #### Agglomeration
 
@@ -427,11 +433,15 @@ For example, `r BiocStyle::Biocpkg("HoloFoodR")` allows users to programmaticall
 
 Another resource is the [microbiome-metabolome-curated-data repository](https://github.com/borenstein-lab/microbiome-metabolome-curated-data/tree/main), which contains curated metagenomic and metabolomic datasets. These data are provided as raw data files, so users need to construct the appropriate data containers themselves before performing integrated analyses.
 
+See the [slides](https://microbiome.github.io/outreach/20260903_ECCB2026.html) for more information.
+
 ### (14:30-15:15) Multi-table data structures
 
 `r BiocStyle::Biocpkg("MultiAssayExperiment")` (`MAE`) is a data container designed to organize and manage multi-omics data. It allows multiple data tables or experiments, representing different omics layers, to be stored together while keeping their sample information and relationships between datasets synchronized.
 
 This makes it easier to subset, manipulate, and analyze multiple omics layers while maintaining the connections between them.
+
+See the [slides](https://microbiome.github.io/outreach/20260903_ECCB2026.html) for more information.
 
 #### Import additional omic layer
 
@@ -526,6 +536,8 @@ kable(methods_table, caption = "Overview of multiomics statistical approaches")
 ```
 
 These methods are implemented in `multiomics` package that supports `MAE` data container.
+
+See the [slides](https://microbiome.github.io/outreach/20260903_ECCB2026.html) for more information.
 
 #### Mantel test
 
