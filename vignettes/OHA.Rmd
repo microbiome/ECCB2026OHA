@@ -31,9 +31,11 @@ Authors:
     Himmi Lindgren,
     Leo Lahti
     <br/>
-Last modified: 25 August, 2026.
+Last modified: 27 August, 2026.
 
-<img src="figures/eccb2026.png" width="150"/> <img src="figures/mia_logo.png" width="130"/> <img src="figures/utu.png" width="300"/>
+<img src="figures/eccb2026.png" width="150" style="margin-right: 30px;">
+<img src="figures/mia_logo.png" width="130" style="margin-right: 30px;">
+<img src="figures/utu.png" width="300">
 
 ## Overview
 
