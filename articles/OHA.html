@@ -252,7 +252,7 @@ emphasis on incorporating microbiome-derived information together with
 host and other molecular data layers. Thus, hologenomics uses
 multi-omics approaches to study how the host and its microbial community
 jointly contribute to biological processes and phenotypes.</p>
-<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html" class="external-link">slides</a>
+<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html#/introduction-to-hologenomics" class="external-link">slides</a>
 for more information.</p>
 </div>
 <div class="section level3">
@@ -270,7 +270,7 @@ and analyze biological datasets consistently across different
 Bioconductor packages.</p>
 <p>The main data container is <em><a href="https://bioconductor.org/packages/3.24/SummarizedExperiment" class="external-link">SummarizedExperiment</a></em>
 which is extended to different fields.</p>
-<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html" class="external-link">slides</a>
+<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html#/bioconductors-data-science-framework" class="external-link">slides</a>
 for more information.</p>
 <div class="section level4">
 <h4 id="import-data">Import data<a class="anchor" aria-label="anchor" href="#import-data"></a>
@@ -484,7 +484,7 @@ provides the foundation for microbiome analysis before incorporating
 additional omics layers or other sources of information.</p>
 <p>We will cover the common steps and analytical approaches used in
 microbiome data analysis.</p>
-<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html" class="external-link">slides</a>
+<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html#/tabular-data-analysis-for-microbiomes-incorporating-hierarchical-side-information" class="external-link">slides</a>
 for more information.</p>
 <div class="section level4">
 <h4 id="agglomeration">Agglomeration<a class="anchor" aria-label="anchor" href="#agglomeration"></a>
@@ -710,7 +710,7 @@ repository</a>, which contains curated metagenomic and metabolomic
 datasets. These data are provided as raw data files, so users need to
 construct the appropriate data containers themselves before performing
 integrated analyses.</p>
-<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html" class="external-link">slides</a>
+<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html#/programmatic-access-to-hologenome-data-collections" class="external-link">slides</a>
 for more information.</p>
 </div>
 <div class="section level3">
@@ -724,7 +724,7 @@ their sample information and relationships between datasets
 synchronized.</p>
 <p>This makes it easier to subset, manipulate, and analyze multiple
 omics layers while maintaining the connections between them.</p>
-<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html" class="external-link">slides</a>
+<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html#/multi-table-data-structures" class="external-link">slides</a>
 for more information.</p>
 <div class="section level4">
 <h4 id="import-additional-omic-layer">Import additional omic layer<a class="anchor" aria-label="anchor" href="#import-additional-omic-layer"></a>
@@ -799,10 +799,10 @@ experiment or layer can be accessed similarly to list.</p>
 <h4 id="data-integration">Data integration<a class="anchor" aria-label="anchor" href="#data-integration"></a>
 </h4>
 <p>In recent years, many different approaches to integrate multiomics
-data has been proposed. For instance, <span class="citation">(<strong>Mangnier2025?</strong>)</span> benchmarked
-different approaches to integrate metagenomics and metabolomics data,
-and evaluated different methods based on robustness and
-interpretability.</p>
+data has been proposed. For instance, <span class="citation">(Mangnier
+et al. 2025)</span> benchmarked different approaches to integrate
+metagenomics and metabolomics data, and evaluated different methods
+based on robustness and interpretability.</p>
 <p>In the publication, they proposed the following methods to address
 the following research questions:</p>
 <table class="table">
@@ -846,7 +846,7 @@ metabolites?</td>
 </table>
 <p>These methods are implemented in <code>multiomics</code> package that
 supports <code>MAE</code> data container.</p>
-<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html" class="external-link">slides</a>
+<p>See the <a href="https://microbiome.github.io/outreach/20260903_ECCB2026.html#/methods-for-taxonomic-functional-and-host-omic-integration" class="external-link">slides</a>
 for more information.</p>
 </div>
 <div class="section level4">
@@ -1017,7 +1017,7 @@ other molecular features are most informative for the outcome.</p>
 <span>    subject_id_col <span class="op">=</span> <span class="st">"subject_id"</span>,</span>
 <span>    family <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/family.html" class="external-link">binomial</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="op">)</span> </span>
-<span><span class="co">#&gt; Time for model fit : 0.08 minutes </span></span>
+<span><span class="co">#&gt; Time for model fit : 0.079 minutes </span></span>
 <span><span class="co">#&gt; ========================================</span></span>
 <span><span class="co">#&gt; Model fit for individual layers: SL.randomForest </span></span>
 <span><span class="co">#&gt; Model fit for stacked layer: sl_nnls_auc </span></span>
@@ -1257,6 +1257,11 @@ Mallick, Himel, Anupreet Porwal, Satabdi Saha, Piyali Basak, Vladimir
 Svetnik, and Erina Paul. 2023. <span>“An Integrated Bayesian Framework
 for Multi-Omics Prediction and Classification.”</span> <em>Statistics in
 Medicine</em> 43 (5): 983–1002. <a href="https://doi.org/10.1002/sim.9953" class="external-link">https://doi.org/10.1002/sim.9953</a>.
+</div>
+<div id="ref-Mangnier2025" class="csl-entry">
+Mangnier, Loïc, Antoine Bodein, Margaux Mariaz, et al. 2025. <span>“A
+Systematic Benchmark of Integrative Strategies for Microbiome-Metabolome
+Data.”</span> <em>Communications Biology</em> 8 (1). <a href="https://doi.org/10.1038/s42003-025-08515-9" class="external-link">https://doi.org/10.1038/s42003-025-08515-9</a>.
 </div>
 <div id="ref-Nickols2024" class="csl-entry">
 Nickols, William A., Thomas Kuntz, Jiaxian Shen, et al. 2024.
