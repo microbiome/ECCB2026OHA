@@ -1,6 +1,6 @@
 Package: ECCB2026OHA
 Title: Orchestrating Hologenome Analysis workshop
-Version: 2.0.3
+Version: 2.0.4
 Authors@R: 
     c(person(given = "Tuomas", family = "Borman", role = c("aut", "cre"),
              email = "tuomas.v.borman@utu.fi",
@@ -47,4 +47,4 @@ Remotes:
 URL: https://microbiome.github.io/ECCB2026OHA/
 BugReports: https://github.com/microbiome/ECCB2026OHA/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: ghcr.io/mcirobiome/ECCB2026OHA:latest
+DockerImage: ghcr.io/microbiome/ECCB2026OHA:latest

@@ -64,6 +64,7 @@ tab[["taxonomy"]] <- rownames(res[[1]])
 tab <- mia:::.parse_taxonomy(
     tab, column_name = "taxonomy", sep = "\\.")
 tab[["pathway"]] <- sub("\\|.*$", "", rownames(res[[1]]))
+tab[["pathway"]] <- tab[["pathway"]] |> sub("^[^:]+:\\s*", "", x = _)
 rownames(tab) <- rownames(res[[1]])
 rowData(res[[1]]) <- tab
 res[[1]] <- agglomerateByVariable(res[[1]], by = 1L, group = "pathway")

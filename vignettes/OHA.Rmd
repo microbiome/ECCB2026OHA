@@ -321,9 +321,7 @@ plotAbundance(
     assay.type = "counts",
     as.relative = TRUE,
     rank = "phylum",
-    col.var = "disease",
-    facet.cols = TRUE, ## Make it default
-    scales = "free_x" ## Make free_x as default
+    col.var = "disease"
 )
 ```
 
